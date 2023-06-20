@@ -23,6 +23,10 @@ public class Hero : MonoBehaviour
             isGround = false;
         }
 
+        if(!isGround){
+            transform.Rotate(0f, 0f, -5f);
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
