@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,7 +25,7 @@ public class Hero : MonoBehaviour
         }
 
         if(!isGround){
-            transform.Rotate(0f, 0f, -5f);
+            transform.Rotate(0f, 0f, -2f);
         }
 
     }
@@ -40,6 +41,10 @@ public class Hero : MonoBehaviour
     }
 
     void OnBecameInvisible(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Invoke("reloadScene", 1.2f);// задержка перед перезагрузкой сцены
+    }
+    
+    void reloadScene(){
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
