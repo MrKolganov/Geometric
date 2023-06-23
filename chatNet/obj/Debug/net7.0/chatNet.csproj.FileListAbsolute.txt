@@ -1,0 +1,15 @@
+C:\chatNet\obj\Debug\net7.0\chatNet.csproj.AssemblyReference.cache
+C:\chatNet\obj\Debug\net7.0\chatNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\chatNet\obj\Debug\net7.0\chatNet.AssemblyInfoInputs.cache
+C:\chatNet\obj\Debug\net7.0\chatNet.AssemblyInfo.cs
+C:\chatNet\obj\Debug\net7.0\chatNet.csproj.CoreCompileInputs.cache
+C:\chatNet\bin\Debug\net7.0\chatNet.exe
+C:\chatNet\bin\Debug\net7.0\chatNet.deps.json
+C:\chatNet\bin\Debug\net7.0\chatNet.runtimeconfig.json
+C:\chatNet\bin\Debug\net7.0\chatNet.dll
+C:\chatNet\bin\Debug\net7.0\chatNet.pdb
+C:\chatNet\obj\Debug\net7.0\chatNet.dll
+C:\chatNet\obj\Debug\net7.0\refint\chatNet.dll
+C:\chatNet\obj\Debug\net7.0\chatNet.pdb
+C:\chatNet\obj\Debug\net7.0\chatNet.genruntimeconfig.cache
+C:\chatNet\obj\Debug\net7.0\ref\chatNet.dll
