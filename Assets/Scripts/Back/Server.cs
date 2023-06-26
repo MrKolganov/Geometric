@@ -27,12 +27,12 @@ public class Server : MonoBehaviour
 
         Task.Run(ReceiveMessageAsync);
         // ввод и отправка ссобщений
-        Task.Run(SendMessageAsync);
+        SendMessageAsync();
     }
 
     async Task SendMessageAsync()
     {
-        using Socket sender = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+        using UdpClient sender = new UdpClient();
 
         while(true)
         {
@@ -47,7 +47,7 @@ public class Server : MonoBehaviour
     }
 
     // вывод сообщений
-    async Task ReceiveMessageAsync()
+    async void ReceiveMessageAsync()
     {
         byte[] data = new byte[65535];// буфер для получаемых данных
         // сокет для прослушки сообщений

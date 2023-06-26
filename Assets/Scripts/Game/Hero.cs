@@ -11,6 +11,8 @@ public class Hero : MonoBehaviour
     public float JumpForce = 6f;
     private bool moveBool;
 
+    public GameObject victoryScreen;
+
     private void Start() {
         _heroRigidbody = GetComponent<Rigidbody2D>();
         isGround = true;
@@ -48,6 +50,12 @@ public class Hero : MonoBehaviour
 
         if(other.gameObject.tag == "Obstacle")
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        if(other.gameObject.tag == "Victory")
+        {
+            victoryScreen.SetActive(true);
+            Time.timeScale = 0f;
+        }
         
     }
 
