@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "WebSocketSharp/1.0.3-rc11": {
+        "type": "package",
+        "compile": {
+          "lib/websocket-sharp.dll": {}
+        },
+        "runtime": {
+          "lib/websocket-sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebSocketSharp/1.0.3-rc11": {
+      "sha512": "7VCF7f7zVMOvLGD8LeGS4DVXc8lOcB6kXnUMeTxigu+PMiU+6wW5Olq2gYrDU8vDRKOwFY+5RyBaLyzb8skEzA==",
+      "type": "package",
+      "path": "websocketsharp/1.0.3-rc11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/websocket-sharp.dll",
+        "lib/websocket-sharp.xml",
+        "websocketsharp.1.0.3-rc11.nupkg.sha512",
+        "websocketsharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "WebSocketSharp >= 1.0.3-rc11"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\pasha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\pasha\\Documents\\GitHub\\Geometric\\ServerBack\\ServerBack.csproj",
+      "projectName": "ServerBack",
+      "projectPath": "C:\\Users\\pasha\\Documents\\GitHub\\Geometric\\ServerBack\\ServerBack.csproj",
+      "packagesPath": "C:\\Users\\pasha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pasha\\Documents\\GitHub\\Geometric\\ServerBack\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\pasha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "WebSocketSharp": {
+            "target": "Package",
+            "version": "[1.0.3-rc11, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"WebSocketSharp 1.0.3-rc11\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "WebSocketSharp",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

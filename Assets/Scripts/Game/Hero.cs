@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class Hero : MonoBehaviour
 {
+    public Server server;
     private bool isGround;
     private Rigidbody2D _heroRigidbody;
     public float JumpForce = 6f;
     private bool moveBool;
+    public bool isMainPlayer;
 
-    public GameObject victoryScreen;
+    //public GameObject victoryScreen;
 
     private void Start() {
         _heroRigidbody = GetComponent<Rigidbody2D>();
@@ -20,7 +22,15 @@ public class Hero : MonoBehaviour
     }
 
     private void Update() {
-        
+        if(this.isMainPlayer)
+        {
+            this.HandleMovement();
+        }
+    }
+
+    private void HandleMovement()
+    {
+        var targetPos = this.transform.position;
         if(Input.GetButtonDown("Jump"))
         {
             moveBool = true;
@@ -31,16 +41,12 @@ public class Hero : MonoBehaviour
             moveBool = false;
         }
 
-        if(!isGround){
-            transform.Rotate(0f, 0f, -2f);
-        }
-
         if(moveBool && isGround)
         {
             _heroRigidbody.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
             isGround = false;
         }
-
+        this.server.SyncPlayerState(this.gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
@@ -51,11 +57,11 @@ public class Hero : MonoBehaviour
         if(other.gameObject.tag == "Obstacle")
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-        if(other.gameObject.tag == "Victory")
-        {
-            victoryScreen.SetActive(true);
-            Time.timeScale = 0f;
-        }
+        // if(other.gameObject.tag == "Victory")
+        // {
+        //     victoryScreen.SetActive(true);
+        //     Time.timeScale = 0f;
+        // }
         
     }
 

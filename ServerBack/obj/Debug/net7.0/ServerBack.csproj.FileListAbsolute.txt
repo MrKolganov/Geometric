@@ -1,0 +1,17 @@
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ServerBack.csproj.AssemblyReference.cache
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ServerBack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ServerBack.AssemblyInfoInputs.cache
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ServerBack.AssemblyInfo.cs
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ServerBack.csproj.CoreCompileInputs.cache
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\bin\Debug\net7.0\ServerBack.exe
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\bin\Debug\net7.0\ServerBack.deps.json
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\bin\Debug\net7.0\ServerBack.runtimeconfig.json
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\bin\Debug\net7.0\ServerBack.dll
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\bin\Debug\net7.0\ServerBack.pdb
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\bin\Debug\net7.0\websocket-sharp.dll
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ServerBack.csproj.CopyComplete
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ServerBack.dll
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\refint\ServerBack.dll
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ServerBack.pdb
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ServerBack.genruntimeconfig.cache
+C:\Users\pasha\Documents\GitHub\Geometric\ServerBack\obj\Debug\net7.0\ref\ServerBack.dll
